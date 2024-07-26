@@ -9,7 +9,7 @@
       modules = [
         # ...
         # add your model from this list: https://github.com/NixOS/nixos-hardware/blob/master/flake.nix
-        # nixos-hardware.nixosModules.microsoft-surface-common
+        nixos-hardware.nixosModules.microsoft-surface-common
         nixos-hardware.nixosModules.microsoft-surface-pro-intel
         ./configuration.nix
       ];
